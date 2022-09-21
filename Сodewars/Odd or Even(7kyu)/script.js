@@ -1,12 +1,12 @@
 'use strict';
-function oddOrEven(array) {
-   if (array == '') {
-      console.log('even');
-   } else {
-      let total = array.reduce((a, b) => a + b);
-      console.log(total % 2 === 0 ? 'even' : 'odd');
-   }
+const arr = [2];
+
+function stray(numbers) {
+   let res = [];
+
+   numbers.forEach(e => numbers.indexOf(e) == numbers.lastIndexOf(e) ? res.push(e) : {});
+
+   console.log(Number(res));
 }
 
-
-oddOrEven([1, 1]);
+stray([2]);
