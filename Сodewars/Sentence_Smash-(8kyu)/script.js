@@ -8,3 +8,10 @@ function smash(words) {
    console.log(result.join(" "));
 }
 smash(["hello", "amazing", "world"]);
+
+
+// or
+
+// smash = function (words) {
+//    return words.join(" ");
+// };
