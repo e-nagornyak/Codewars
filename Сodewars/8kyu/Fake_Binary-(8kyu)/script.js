@@ -5,5 +5,3 @@ function fakeBin(x) {
    }
    console.log(result);
 }
-
-fakeBin('45385593107843568');
