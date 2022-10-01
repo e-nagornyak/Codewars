@@ -10,3 +10,10 @@ function arithmetic(a, b, operator) {
    }
 }
 arithmetic(3, 2, "subtract")
+
+// other 
+
+function arithmetic(a, b, operator) {
+   optable = { "add": "+", "subtract": "-", "multiply": "*", "divide": "/" };
+   return eval(a + optable[operator] + b);
+}
