@@ -5,3 +5,7 @@ function doubleChar(str) {
     }
     return newStr;
 }
+
+
+// Using an array
+// const doubleChar = (str) => str.split("").map(c => c + c).join("");
