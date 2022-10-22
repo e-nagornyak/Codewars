@@ -5,3 +5,7 @@ const reverse = (array) => {
     }
     return arr;
 }
+
+// reverse = function(array) {
+//     return array.map((c, i) => array[array.length - 1 - i]);
+// }
