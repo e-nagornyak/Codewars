@@ -7,3 +7,9 @@ function getMiddle(s) {
       return (s[Math.floor(s.length / 2)]);
    }
 }
+
+// function getMiddle(s) {
+//    let a = s.length
+//    let b = a % 2 ? s[Math.floor(a / 2)] : `${s[Math.floor(a / 2 - 1)]}${s[Math.floor(a / 2)]}`
+//    return b
+// }
