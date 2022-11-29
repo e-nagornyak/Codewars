@@ -5,7 +5,7 @@ function alphabetPosition(text) {
    for (let i = 0; i < text.length; i++) {
       switch (text[i].toLowerCase()) {
          case 'a':
-            string += '1 ';
+            string += 'Anagram_Detection ';
             break;
          case 'b':
             string += '2 ';
