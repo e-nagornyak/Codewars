@@ -9,3 +9,5 @@ function Other(numbers) {
     let indexOfMin = numbers.indexOf(Math.min(...numbers));
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
 }
+
+const removeSmallest = numbers => numbers.filter((n,i) => i !== numbers.indexOf(Math.min(...numbers)));
