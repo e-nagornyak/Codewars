@@ -5,7 +5,7 @@ function removeSmallest(numbers) {
     return newArr.filter(el => el !== undefined)
 }
 
-function removeSmallest(numbers) {
+function Other(numbers) {
     let indexOfMin = numbers.indexOf(Math.min(...numbers));
     return [...numbers.slice(0, indexOfMin), ...numbers.slice(indexOfMin + 1)];
 }
