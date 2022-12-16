@@ -12,5 +12,5 @@ function hello(name) {
 hello('sadasdasd')
 
 
-const hello = s =>
+const hello_with_slise = s =>
     `Hello, ${s ? (s[0].toUpperCase() + s.slice(1).toLowerCase()) : 'World'}!`
