@@ -10,3 +10,8 @@ function duplicateCount(text) {
     let set = new Set(res)
     return set.size
 }
+
+
+// function duplicateCount(text){
+//     return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+// }
