@@ -8,3 +8,6 @@ function remove(string) {
 
 console.log(remove(("Hi! !Hi Hi!!")));
 
+function remove(s){
+    return s.split(' ').filter(i => i.split('!').length != 2).join(' ');
+}
