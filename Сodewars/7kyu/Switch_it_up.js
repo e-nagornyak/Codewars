@@ -1,6 +1,5 @@
 function switchItUp(number) {
-    const arr = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
-    return arr[number]
+    return['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'][number]
 }
 
 console.log(switchItUp(1));
