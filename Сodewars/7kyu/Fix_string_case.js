@@ -8,10 +8,5 @@ function solve(str) {
             uppercaseCount++;
         }
     }
-
-    if (lowercaseCount === uppercaseCount || lowercaseCount > uppercaseCount) {
-        return str.toLowerCase();
-    } else {
-        return str.toUpperCase();
-    }
+    return lowercaseCount >= uppercaseCount ? str.toLowerCase() : str.toUpperCase()
 }
