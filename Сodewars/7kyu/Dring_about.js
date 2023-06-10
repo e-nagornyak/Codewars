@@ -1,12 +1,4 @@
-function peopleWithAgeDrink(age) {
-    switch (true) {
-        case age < 14:
-            return "drink toddy";
-        case age < 18:
-            return "drink coke";
-        case age < 21:
-            return "drink beer";
-        default:
-            return "drink whisky";
-    }
-}
+const peopleWithAgeDrink = (age) =>
+    age < 14 ? "drink toddy" :
+        age < 18 ? "drink coke" :
+            age < 21 ? "drink beer" : "drink whisky"
