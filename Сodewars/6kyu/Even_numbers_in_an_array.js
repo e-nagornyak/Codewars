@@ -1,4 +1,1 @@
-function evenNumbers(arr, n) {
-    const filtered = arr.filter(el => !(el % 2))
-    return filtered.splice(filtered.length - n, n)
-}
+const evenNumbers = (arr, n) => arr.filter(i => !(i % 2)).slice(-n);
