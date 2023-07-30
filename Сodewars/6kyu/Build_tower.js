@@ -8,6 +8,5 @@ function towerBuilder(lines) {
         const floorString = " ".repeat(numSpaces) + "*".repeat(numStars) + " ".repeat(numSpaces);
         tower.push(floorString);
     }
-
     return tower;
 }
