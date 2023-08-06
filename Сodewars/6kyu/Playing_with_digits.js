@@ -1,14 +1,5 @@
 function digPow(n, p) {
-    function getDigits(num) {
-        return num.toString().split('').map(Number);
-    }
-
-    const digits = getDigits(n);
-    const totalSum = digits.reduce((sum, digit, index) => sum + Math.pow(digit, p + index), 0);
-
-    if (totalSum % n === 0) {
-        return totalSum / n;
-    } else {
-        return -1;
-    }
+    const getDigits = (num) => num.toString().split('').map(Number);
+    const totalSum = getDigits(n).reduce((sum, digit, i) => sum + Math.pow(digit, p + i), 0);
+    return totalSum % n ? -1 : totalSum / n
 }
