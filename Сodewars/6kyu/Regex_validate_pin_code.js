@@ -1,6 +1,3 @@
 function validatePIN(pin) {
-    if (pin.length === 4 || pin.length === 6) {
-        return /^\d+$/.test(pin);
-    }
-    return false;
+    return (pin.length === 4 || pin.length === 6) && /^\d+$/.test(pin);
 }
