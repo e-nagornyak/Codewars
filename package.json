@@ -49,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
     "webpack": "^5.90.3"
