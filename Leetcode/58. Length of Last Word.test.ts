@@ -1,4 +1,4 @@
-import { describe, expect, test } from '@jest/globals';
+import { describe, expect, test } from "@jest/globals";
 
 function lengthOfLastWord(s: string): number {
   return s?.trim()?.split(' ')?.at(-1)?.length
@@ -10,4 +10,3 @@ describe("Solution", () => {
     // expect(lengthOfLongestSubstring("bbbbb")).toBe(1);
   });
 });
-
