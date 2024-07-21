@@ -2,6 +2,11 @@
   "name": "practise",
   "version": "0.1.0",
   "private": true,
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@testing-library/jest-dom": "^6.4.2",
